@@ -1,0 +1,103 @@
+@import url(./tech.responsiv.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Main Style*/
+ul {
+    list-style: none;
+}
+.container-fluid {
+    width: 95%;
+    margin: 0 auto;
+}
+body {
+    background-image: url(../assets/technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar ul,.offcanvas {
+    background:linear-gradient(to right , #383A43 , #0D0F1B , #0B0D19);
+    border-radius: 10px;
+}
+.nav-item .nav-link {
+    text-transform: uppercase;
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #D0D6F9;
+    
+}
+.nav-link, .btn-light{
+    letter-spacing: 2px;
+}
+
+/*Technology Style*/
+
+.buttons {
+    margin-top: 30px;
+}
+button:hover {
+    background-color: #0B0E17;
+    border: 1px solid #fff;
+}
+.buttons li {
+    background-color: #0B0E17;
+    color: #ffffff;
+    border: none;
+    padding: 20px 30px;
+    cursor: pointer;
+    font-weight: 800;
+}
+.buttons li:hover {
+    background-color: #353740;
+}
+#text-content {
+    margin-top: 4rem;
+}
+.tech span {
+    color: #4F4F4F;
+    font-weight: 800;
+}
+#text-content span {
+    color: #82878B;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#text-content h1{
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+#text-content p{
+    font-size: 17px;
+    font-weight: 600;
+    width: 75%;
+    color: #ABB0CF;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+#main-image {
+    max-height: 500px;
+    border-radius: 10px;
+}
+.right-panel img {
+    object-fit: contain;
+}
+.right-panel{
+    margin: 0 28rem;
+}
+.tech-style .ms-5 {
+    letter-spacing: 1px;
+}
+.tech-style .ms-5 h5 {
+    color: #ABB0CF;
+}
+.animate__bounceInDown {
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}

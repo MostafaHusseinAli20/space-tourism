@@ -1,0 +1,74 @@
+@import url(./responsiv.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*variables*/
+/* :root {
+    
+} */
+/*Main Style*/
+.container-fluid {
+    width: 95%;
+    margin: 0 auto;
+}
+body {
+    background-image: url(../assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar ul,.offcanvas {
+    background:linear-gradient(to right , #5A6780 , #192F4C , #0A1A35);
+    border-radius: 10px;
+}
+.nav-item .nav-link {
+    text-transform: uppercase;
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #D0D6F9;
+    
+}
+.nav-link, .btn-light{
+    letter-spacing: 2px;
+}
+
+/*Home Style*/
+
+.home {
+    padding-top: 15rem;
+}
+.home .main-content {
+    padding-left: 8rem;
+}
+.home .main-content h5 , 
+.home .main-content p{
+    color: #ABB0CF;
+}
+.home .main-content p{
+    width: 50%;
+    color: #ABB0CF;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.home .main-content h1{
+    font-size: 100px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    color: #D0D6F9;
+}
+.home .btn-light{
+    border-radius: 50%;
+    padding: 6rem;
+}
+.animate__bounceInDown {
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}

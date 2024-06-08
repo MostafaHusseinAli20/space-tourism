@@ -1,0 +1,227 @@
+/*Desktop Screen*/
+
+@media  (max-width: 1280px) {
+    .left-panel img {
+        width: 260% !important;
+    }
+    .destination .content p {
+        width: 135% !important;
+    }
+    .destination .detail span {
+        letter-spacing:0px !important;
+    }
+    .destination .detail h4 {
+        letter-spacing: 1px !important;
+    }
+    .destination .detail{
+        display: flex !important;
+        text-align: center;
+    }
+    .destination .avg span,
+    .destination .avg h4{
+        font-size: 17px !important;
+        margin:0 !important;
+        padding-bottom: 1rem;
+    }
+    .destination .est span,
+    .destination .est h4{
+        font-size: 17px !important;
+        margin:0 !important;
+    }
+}
+
+/* Lg Screen*/
+
+@media (max-width: 1024px) {
+    body{
+        height: 220vh !important;
+    }
+    /*Destination Div*/
+
+    .destination-section {
+        display: block !important;
+        
+    }
+    .pick{
+        margin-left: 5rem !important;
+        letter-spacing: 1px !important;
+    }
+    .menu {
+        gap: 0px !important;
+    }
+    .destination .content h1{
+        font-size: 50px !important;
+    }
+    .destination .content p {
+        font-size: 18px !important;
+        width: 75% !important;
+    }
+    .left-panel img {
+        width: 90% !important;
+    }
+
+    /*Detail Div*/
+
+    .destination .detail span {
+        letter-spacing:0px !important;
+    }
+    .destination .detail h4 {
+        letter-spacing: 1px !important;
+    }
+    .destination .detail{
+        display: flex !important;
+        text-align: center;
+    }
+    .destination .avg span,
+    .destination .avg h4{
+        margin:0 !important;
+        padding-bottom: 1rem;
+    }
+    .destination .est span,
+    .destination .est h4{
+        margin:0 !important;
+    }
+    
+}
+
+/*Tablet*/
+
+@media (max-width: 990px) {
+    body {
+        background-image: url(../assets/destination/background-destination-tablet.jpg) !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+        height: 135vh !important;
+    }
+    .left-panel img {
+        width: 90% !important;
+    }
+    .destination .content p {
+        width: 95% !important;
+    }
+}
+
+/*Phone*/
+
+@media (max-width: 540px) {
+    body{
+        background-image: url(../assets/destination/background-destination-mobile.jpg) !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+        height: 130vh !important;
+    }
+    .left-panel img {
+        
+        width: 80% !important;
+        
+    }
+
+    /*Destination Div*/
+
+    .destination-section {
+        display: block !important;
+        width: 100% !important;
+    }
+    .pick{
+        margin-left: 1rem !important;
+        letter-spacing: 1px !important;
+    }
+    .menu {
+        gap: 0px !important;
+    }
+    .destination .content h1{
+        font-size: 50px !important;
+    }
+    .destination .content p {
+        font-size: 15px !important;
+        width: 100% !important;
+    }
+
+    /*Detail Div*/
+
+    .destination .detail span {
+        letter-spacing:0px !important;
+    }
+    .destination .detail h4 {
+        letter-spacing: 1px !important;
+    }
+    .destination .detail{
+        display: flex !important;
+        text-align: center;
+    }
+    .destination .avg span,
+    .destination .avg h4{
+        margin:0 !important;
+        padding-bottom: 1rem;
+    }
+    .destination .est span,
+    .destination .est h4{
+        margin:0 !important;
+    }
+
+}
+@media (max-width: 375px) {
+    body{
+        height: 160vh !important;
+    }
+    .destination-section {
+        display: block !important;
+        width: 100% !important;
+    }
+    .pick{
+        margin-left: 1rem !important;
+        letter-spacing: 1px !important;
+    }
+    .menu {
+        gap: 0px !important;
+    }
+    .destination .content h1{
+        font-size: 50px !important;
+    }
+    .destination .content p {
+        font-size: 15px !important;
+        width: 95% !important;
+    }
+    .destination .detail span {
+        letter-spacing:0px !important;
+    }
+    .destination .detail h4 {
+        letter-spacing: 1px !important;
+    }
+    .destination .detail{
+        display: flex !important;
+        text-align: center;
+    }
+    .destination .avg span,
+    .destination .avg h4{
+        font-size: 16px !important;
+        margin:0 !important;
+        padding-bottom: .4rem;
+    }
+    .destination .est span,
+    .destination .est h4{
+        font-size: 16px;
+        margin:0 !important;
+    }
+}
+
+/*Small Phone*/
+
+@media (max-width: 344px) {
+    body {
+        height: 100vh !important;
+    }
+    .destination .avg span,
+    .destination .avg h4{
+        font-size: 14px !important;
+        margin:0 !important;
+        padding-bottom: .4rem;
+    }
+    .destination .est span,
+    .destination .est h4{
+        font-size: 14px !important;
+        margin:0 !important;
+    }
+}

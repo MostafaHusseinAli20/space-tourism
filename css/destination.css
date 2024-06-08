@@ -1,0 +1,138 @@
+@import url(./responsiv.destination.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+/*Main Style*/
+.container-fluid {
+    width: 95%;
+    margin: 0 auto;
+}
+body {
+    background-image: url(../assets/destination/background-destination-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar ul,.offcanvas {
+    background:linear-gradient(to right , #171D29 , #1B212F , #0A0D16);
+    border-radius: 10px;
+}
+.nav-item .nav-link {
+    text-transform: uppercase;
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #D0D6F9;
+    
+}
+.nav-link, .btn-light{
+    letter-spacing: 2px;
+}
+
+/*Destination Style*/
+
+.pick{
+    margin-left: 20rem;
+    /* padding-top: 2rem; */
+    letter-spacing: 2px;
+}
+.pick span{
+    color: #4f4f4f;
+    font-size: 20px;
+    font-weight: 800;
+}
+.pick h3{
+    color: #ABB0CF;
+    font-size: 20px;
+}
+.destination {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.destination-section {
+    display: flex;
+    gap: 500px !important;
+    width: 80%;
+    align-items: center;
+}
+.destination .right-panel button:hover {
+    border-bottom: 1px solid #fff !important;
+}
+.destination .right-panel button:active{
+    background-color: #D0D6F9;
+    color: #0A0D16 !important;
+}
+.menu {
+    padding: 0;
+    text-align: left;
+    display: flex;
+    gap: 10px;
+}
+.menu button {
+    margin: 10px 0;
+    cursor: pointer;
+}
+.content {
+    display: none;
+}
+.content.active {
+    display: block;
+}
+.right-panel {
+    flex: 1;
+    padding-left: 20px;
+}
+.left-panel {
+    flex: 1;
+    padding-right: 20px;
+    text-align: center;
+}
+.left-panel img {
+    animation-name: infiniteImges;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    width: 80%;
+    height: auto;
+}
+.destination .content h1{
+    font-weight: 800;
+    font-size: 80px;
+}
+.destination .content p {
+    font-size: 18px;
+    width: 95%;
+    color: #ABB0CF;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+}
+.destination .detail span {
+    font-weight: 600;
+    letter-spacing:2px;
+    font-weight: 600;
+}
+.destination .detail h4 {
+    letter-spacing: 3px;
+}
+@keyframes infiniteImges {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+.animate__bounceInDown {
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}

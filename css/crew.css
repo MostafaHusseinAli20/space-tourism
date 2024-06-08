@@ -1,0 +1,117 @@
+@import url(./responsiv.crew.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Main Style*/
+.container-fluid {
+    width: 95%;
+    margin: 0 auto;
+}
+body {
+    background-image: url(../assets/crew/background-crew-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar ul,.offcanvas {
+    background:linear-gradient(to right , #3C3F46 , #11131E , #2E2F36);
+    border-radius: 10px;
+}
+.nav-item .nav-link {
+    text-transform: uppercase;
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #D0D6F9;
+    
+}
+.nav-link, .btn-light{
+    letter-spacing: 2px;
+}
+
+/*Crew Style*/
+
+/**/
+
+.crew .nav-item div{
+    border: 2px;
+    border-radius: 50% !important;
+    padding: 1rem;
+    background-color: #85878B;
+}
+.crew .nav-item div:active{
+    background-color: #fff;
+    transition: 1s;
+    transform: scale(.4);
+}
+
+/*Crew Style*/
+.crew .d-flex {
+    letter-spacing: 2px;
+}
+.crew span {
+    color: #4F4F4F;
+    font-weight: 800;
+
+}
+.crew h5{
+    letter-spacing: 1px;
+    font-weight: 600;
+    color:#85878B;
+}
+.crew .d-flex h5,
+.text-container p{
+    color:#ABB0CF;
+}
+.crew .crew-style {
+    gap: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-container{
+    margin-left: 8rem;
+}
+.text-container, .image-container {
+    flex: 1;
+    padding: 20px;
+}
+.text-container h1 {
+    font-size: 49px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.text-container p {
+    font-size: 17px;
+    font-weight: 600;
+    width: 75%;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.buttons {
+    margin-top: 20px;
+}
+button {
+    padding: .9rem;
+    margin: 0 10px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+}
+button:hover {
+    background-color: #666;
+}
+.animate__bounceInDown {
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}

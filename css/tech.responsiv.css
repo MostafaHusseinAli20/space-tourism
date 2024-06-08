@@ -1,0 +1,263 @@
+/*2xl Screen*/
+@media (max-width:1660px) {
+    .right-panel{
+        text-align: center;
+        margin: 0 15rem!important;
+    }
+}
+/*Desktop Screen*/
+@media (max-width: 1280px) {
+    body {
+        height: 110vh !important;
+    }
+    #text-content h1{
+        font-size: 35px !important;
+    }
+    #text-content p{
+        font-size: 15px !important;
+        width: 75%;
+        color: #ABB0CF;
+        line-height: 1.5 !important;
+        width: 100% !important;
+    }
+    .right-panel{
+        margin: 7rem !important;
+    }
+    .right-panel img {
+        width: 390px ;
+        border-radius: 0 !important;
+    }
+    .right-panel{
+        text-align: center;
+        margin: 0 15rem!important;
+    }
+}
+/*Lg Screen*/
+@media (max-width: 1230px) {
+    body {
+        height: 160vh !important;
+    }
+    #text-content h1{
+        font-size: 35px !important;
+    }
+    #text-content p{
+        font-size: 15px !important;
+        width: 75%;
+        color: #ABB0CF;
+        line-height: 1.5 !important;
+        width: 130% !important;
+    }
+    .right-panel{
+        margin: 0 6rem !important;
+    }
+    .right-panel img {
+        width: 390px ;
+        border-radius: 0 !important;
+    }
+    .col-lg-6{
+        margin-top: 3rem !important;
+    }
+}
+/*Tablet*/
+@media (max-width: 912px) {
+    body {
+        background-image: url(../assets/technology/background-technology-tablet.jpg) !important;
+        background-position: center !important;
+        background-size: cover !important;
+        height: 140vh !important;
+    }
+    #text-content h1{
+        font-size: 40px !important;
+    }
+    #text-content p{
+        font-size: 15px !important;
+        width: 75%;
+        color: #ABB0CF;
+        line-height: 1.5 !important;
+        width: 130% !important;
+    }
+    .right-panel{
+        margin: 7rem !important;
+    }
+    .right-panel img {
+        width: 350px ;
+        border-radius: 0 !important;
+    }
+    .buttons {
+        margin-top: 80px !important;
+    }
+    
+    .col-lg-6{
+        margin-top: 3rem !important;
+    }
+}
+@media (max-width: 760px) {
+    body {
+        background-image: url(../assets/technology/background-technology-tablet.jpg) !important;
+        background-position: center !important;
+        background-size: cover !important;
+        height: 150vh !important;
+    }
+    .row {
+        flex-wrap: wrap-reverse;
+    }
+    #text-content h1{
+        font-size: 40px !important;
+    }
+    #text-content p{
+        font-size: 15px !important;
+        width: 75%;
+        color: #ABB0CF;
+        line-height: 1.5 !important;
+        width: 100% !important;
+    }
+    .right-panel{
+        text-align: center;
+        margin: 0 !important;
+    }
+    .right-panel img {
+        width: 450px ;
+        border-radius: 0 !important;
+    }
+    .buttons {
+        margin-top: 30px !important;
+    }
+    .ms-5{
+        display: none !important;
+    }
+    .col-lg-6{
+        margin-top: 3rem !important;
+    }
+}
+/*Phone Screen*/
+@media (max-width:430px) {
+    body {
+        background-image: url(../assets/technology/background-technology-mobile.jpg) !important;
+        background-position: center !important;
+        background-size: cover !important;
+        height: 160vh !important;
+    }
+    .row {
+        flex-wrap: wrap-reverse;
+    }
+    #text-content h1{
+        font-size: 40px !important;
+    }
+    #text-content p{
+        font-size: 15px !important;
+        width: 75%;
+        color: #ABB0CF;
+        line-height: 1.5 !important;
+        width: 120% !important;
+    }
+    .right-panel{
+        margin: 0 !important;
+    }
+    .right-panel img {
+        width: 420px ;
+        border-radius: 0 !important;
+    }
+    .buttons {
+        margin-top: 90px !important;
+    }
+    .ms-5{
+        display: none !important;
+    }
+    .col-lg-6{
+        margin-top: 10rem !important;
+    }
+}
+@media (max-width: 414px) {
+    body {
+        background-image: url(../assets/technology/background-technology-mobile.jpg) !important;
+        background-position: center !important;
+        background-size: cover !important;
+        height: 170vh !important;
+    }
+    .row {
+        flex-wrap: wrap-reverse;
+    }
+    #text-content h1{
+        font-size: 40px !important;
+    }
+    #text-content p{
+        font-size: 15px !important;
+        width: 75%;
+        color: #ABB0CF;
+        line-height: 1.5 !important;
+        width: 110% !important;
+    }
+    .right-panel{
+        margin: 0 !important;
+    }
+    .right-panel img {
+        width: 380px ;
+        border-radius: 0 !important;
+    }
+    .buttons {
+        margin-top: 90px !important;
+    }
+   
+    .ms-5{
+        display: none !important;
+    }
+    .col-lg-6{
+        margin-top: 8rem !important;
+    }
+}
+@media (max-width: 375px) {
+    body {
+        background-image: url(../assets/technology/background-technology-mobile.jpg) !important;
+        background-position: center !important;
+        background-size: cover !important;
+        height: 180vh !important;
+    }
+    .row {
+        flex-wrap: wrap-reverse;
+    }
+    #text-content h1{
+        font-size: 30px !important;
+    }
+    #text-content p{
+        font-size: 15px !important;
+        width: 75%;
+        color: #ABB0CF;
+        line-height: 1.5 !important;
+        width: 115% !important;
+    }
+    .right-panel{
+        margin: 0 !important;
+    }
+    .right-panel img {
+        width: 330px;
+        border-radius: 0 !important;
+    }
+    .buttons {
+        margin-top: 80px !important;
+    }
+    .buttons li {
+        padding: 10px 20px !important;
+    }
+    .ms-5{
+        display: none !important;
+    }
+    .col-lg-6{
+        margin-top: 4rem !important;
+    }
+}
+/*Sm Phone*/
+@media (max-width: 344px) {
+    body {
+        background-image: url(../assets/technology/background-technology-mobile.jpg) !important;
+        background-position: center !important;
+        background-size: cover !important;
+        height: 130vh !important;
+    }
+    #text-content p{
+        font-size: 15px !important;
+        width: 75%;
+        color: #ABB0CF;
+        line-height: 1.5 !important;
+        width: 125% !important;
+    }
+}
